@@ -3,6 +3,9 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Features from './components/Features'
 import Trust from './components/Trust'
+import Showcase from './components/Showcase'
+import ParallaxGallery from './components/ParallaxGallery'
+import ScrollToAction from './components/ScrollToAction'
 import CTA from './components/CTA'
 import Footer from './components/Footer'
 
@@ -16,8 +19,11 @@ function App() {
 
       <Navbar />
       <Hero />
+      <Showcase />
+      <ParallaxGallery />
       <Features />
       <Trust />
+      <ScrollToAction />
       <CTA />
       <Footer />
     </div>
